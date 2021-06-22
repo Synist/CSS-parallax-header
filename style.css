@@ -1,0 +1,31 @@
+/* rest css */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+.parallax-effect {
+    background-image: url("./img/fond_parallax.jpg");
+    min-height: 100vh; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-effect2 {
+    background-image: url("./img/1erplan_parallax.png");
+    min-height: 100vh; 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+
+.about {
+    background-color: #012431;
+    height: 100vh;
+}
+
+
